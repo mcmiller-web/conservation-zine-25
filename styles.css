@@ -1,0 +1,124 @@
+@font-face {
+    font-family: main-header-font;
+    src: url(fonts/CevicheOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: nav-font;
+    src: url(fonts/Bungee-Regular.ttf);
+}
+
+@font-face {
+    font-family: second-header-font;
+    src: url(fonts/CevicheOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: third-header-font;
+    src: url(fonts/SedgwickAveDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: body-font;
+    src: url(fonts/Urbanist-VariableFont_wght.ttf);
+}
+
+.proposal {
+    display: block;
+    text-align: center;
+    margin: 20px;
+	width: 50%;
+}
+
+.page-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.body {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 300% 300%;
+    animation: gradientShift 30s ease infinite;}
+
+#index {
+    background: linear-gradient(#0AE3E6 8%, #0BAC9B 27%,#0C7550 70%, #07422D 95%);
+    animation: gradientShift 30s ease infinite;
+
+}
+
+#conser-highlights {
+    background: linear-gradient(#C2FBFF 0%, #23858C 81%);
+}
+
+#expansion{
+    background: linear-gradient(#0082AE 36%, #1843C4 75%);
+}
+
+#origin{
+    background:linear-gradient(#C2FBFF 0%, #23858C 81%);
+}
+
+#sources-resources{
+    background:linear-gradient(#FFF4D0 20%, #0FABB5 68%);
+
+}
+
+.back-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    z-index: -1;
+    background-color: white;
+}
+
+.main-header-title{
+    font-family: main-header-font;
+}
+
+#origin-blue{
+    color: #110896;
+}
+
+#source-white{
+    color: white;
+}
+
+.secondary-header-title{
+    font-family: second-header-font;
+}
+
+.third-header-text{
+    font-family:third-header-font;
+}
+
+.body-text{
+    font-family: body-font;
+}
+
+#source-red{
+    color: #FF0000;
+}
+
+#source-blue{
+    color: #001ADD;
+}
+
+#source-light{
+    color: #ffffff;
+}
+
+
+.nav-title{
+    font-family: nav-font;
+}
