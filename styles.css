@@ -10,17 +10,17 @@
 
 @font-face {
     font-family: second-header-font;
-    src: url(fonts/CevicheOne-Regular.ttf);
-}
-
-@font-face {
-    font-family: third-header-font;
     src: url(fonts/SedgwickAveDisplay-Regular.ttf);
 }
 
 @font-face {
+    font-family: third-header-font;
+    src: url(fonts/Alata-Regular.ttf);
+}
+
+@font-face {
     font-family: body-font;
-    src: url(fonts/Urbanist-VariableFont_wght.ttf);
+    src: url(fonts/Raleway-VariableFont_wght.ttf);
 }
 
 .proposal {
@@ -84,6 +84,26 @@
 
 .main-header-title{
     font-family: main-header-font;
+    font-size: 56px;
+}
+
+#main-title-1 {
+    font-size: 140px;
+    color: white;
+    margin-top: 20px;
+}
+
+#main-title-2 {
+    font-size: 95px;
+    color: white;
+    margin-top: 20px;
+
+}
+
+#main-title-3 {
+    font-size: 57px;
+    color: white;
+    margin-top: 10px;
 }
 
 #origin-blue{
@@ -96,10 +116,17 @@
 
 .secondary-header-title{
     font-family: second-header-font;
+    font-size: 38px;
+}
+#second-title-1 {
+    font-size: 46px;
+    color: white;
+    margin: 10px 0px;
 }
 
 .third-header-text{
     font-family:third-header-font;
+    margin-bottom: 35px;
 }
 
 .body-text{
@@ -124,6 +151,6 @@
 }
 
 .nav-button{
-    width: 250px;
+    width: 180px;
     height: auto;
 }
