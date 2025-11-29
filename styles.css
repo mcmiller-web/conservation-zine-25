@@ -39,6 +39,7 @@
     min-height: 100vh;
     width: 100%;
     padding: 20px;
+    padding-bottom: 40px;
     box-sizing: border-box;
 }
 
@@ -123,6 +124,18 @@
     color: white;
 }
 
+#source-white-1{
+    color: white;
+    margin-bottom: 180px;
+}
+
+#source-white-2{
+    color: white;
+    margin-top: 7px;
+    margin-bottom: 100px;
+}
+
+
 .secondary-header-title{
     font-family: second-header-font;
     font-size: 38px;
@@ -154,19 +167,24 @@
     color: #ffffff;
 }
 
-.nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+.nav-page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  gap: 50px;
 }
 
+.nav-button {
+  width: 60px; 
+}
 
 .nav-title{
     font-family: nav-font;
 }
 
 .nav-button{
-    width: 180px;
+    width: 150px;
     height: auto;
 }
