@@ -142,6 +142,7 @@
     font-family: second-header-font;
     font-size: 38px;
 }
+
 #second-title-1 {
     font-size: 46px;
     color: white;
@@ -176,7 +177,10 @@
     border-radius: 10px;
     color: white;
     display: inline-block;
+}
 
+#body-text-list {
+    color: white;
 }
 
 #source-light{
@@ -203,14 +207,4 @@
 .nav-button{
     width: 150px;
     height: auto;
-}
-
-#body-text-list {
-    color: white;
-    list-style-type: disc;
-    text-align: left;
-}
-
-#body-text-list li {
-    color: white;
 }
