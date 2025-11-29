@@ -50,8 +50,6 @@
 
 #index {
     background: linear-gradient(#0AE3E6 8%, #0BAC9B 27%,#0C7550 70%, #07422D 95%);
-    animation: gradientShift 30s ease infinite;
-
 }
 
 #conser-highlights {
@@ -68,7 +66,10 @@
 
 #sources-resources{
     background:linear-gradient(#FFF4D0 20%, #0FABB5 68%);
+}
 
+.zine-images {
+    border: 10px solid white;
 }
 
 .back-video{
@@ -85,6 +86,7 @@
 .main-header-title{
     font-family: main-header-font;
     font-size: 56px;
+    margin-bottom: 8px;
 }
 
 #main-title-1 {
@@ -150,6 +152,13 @@
 
 #source-light{
     color: #ffffff;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
 
