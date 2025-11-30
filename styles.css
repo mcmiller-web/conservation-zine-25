@@ -49,6 +49,17 @@
     background-size: 300% 300%;
 }
 
+.source-link-space {
+    margin-bottom: 60px;
+    font-family: third-header-font;
+    color: darkgreen;
+}
+
+#source-link-1 {
+    color: white;
+}
+
+
 #index {
     background: linear-gradient(#0AE3E6 8%, #0BAC9B 27%,#0C7550 70%, #07422D 95%);
 }
@@ -70,7 +81,9 @@
 }
 
 .zine-images {
+    cursor: pointer;
     border: 10px solid white;
+    transition: scale(0.97);
 }
 
 .back-video{
@@ -122,6 +135,10 @@
     margin-bottom: 60px;
 }
 
+.source-resource-title {
+    font-family: second-header-font;
+}
+
 
 #origin-blue{
     color: #110896;
@@ -134,9 +151,8 @@
 #source-white-2{
     color: white;
     margin-top: 7px;
-    margin-bottom: 100px;
+    margin-bottom: 65px;
 }
-
 
 .secondary-header-title{
     font-family: second-header-font;
@@ -196,10 +212,6 @@
   gap: 50px;
 }
 
-.nav-button {
-  width: 60px; 
-}
-
 .nav-title{
     font-family: nav-font;
 }
@@ -207,4 +219,17 @@
 .nav-button{
     width: 150px;
     height: auto;
+}
+
+#nava-1 {
+    margin-top: 45px;
+    border: 15px solid white;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;      /* or choose a color */
+    text-decoration: none;  /* optional: remove underline */
 }
