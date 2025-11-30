@@ -23,11 +23,17 @@
     src: url(fonts/Raleway-VariableFont_wght.ttf);
 }
 
-.proposal {
-    display: block;
-    text-align: center;
-    margin: 20px;
-	width: 50%;
+.proposal-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.proposal-content p {
+    text-align: left;
+    line-height: 1.6;
+    font-family: body-font;
 }
 
 .page-content{
