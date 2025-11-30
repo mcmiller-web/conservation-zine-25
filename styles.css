@@ -88,7 +88,65 @@
 .zine-images {
     cursor: pointer;
     border: 10px solid white;
-    transition: scale(0.97);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for all zine images - smooth pop */
+.zine-images:hover {
+    transform: scale(1.05);
+}
+
+/* Floating animation for conser-highlights page */
+#conser-highlights .zine-images {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Glow effect when clicked/playing sound */
+#conser-highlights .zine-images.playing {
+    animation: float-glow 3s ease-in-out infinite;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 
+                0 0 40px rgba(255, 255, 255, 0.6),
+                0 0 60px rgba(255, 255, 255, 0.4);
+}
+
+/* Keyframe animation for soft floating */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Keyframe animation for floating with glow */
+@keyframes float-glow {
+    0%, 100% {
+        transform: translateY(0px) scale(1.05);
+    }
+    50% {
+        transform: translateY(-15px) scale(1.05);
+    }
+}
+
+/* Floating animation for index page h1 and navi-button */
+#index .main-header-title {
+    animation: float-index 3s ease-in-out infinite;
+}
+
+#index .navi-button {
+    animation: float-index 3s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+
+/* Keyframe animation for index page floating */
+@keyframes float-index {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }
 
 .back-video{
@@ -206,6 +264,11 @@
 .nav-button{
     width: 150px;
     height: auto;
+    transition: transform 0.3s ease;
+}
+
+.nav-button:hover {
+    transform: scale(1.08);
 }
 
 #nava-1 {

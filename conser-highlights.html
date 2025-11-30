@@ -59,15 +59,18 @@
                     audio.currentTime = 0;
                     audio.play();
                     isPlaying = true;
+                    img.classList.add("playing");
                 } else {
                     audio.pause();
                     audio.currentTime = 0;
                     isPlaying = false;
+                    img.classList.remove("playing");
                 }
             });
 
             audio.addEventListener("ended", () => {
                 isPlaying = false;
+                img.classList.remove("playing");
             });
 
         }
