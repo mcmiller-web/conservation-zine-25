@@ -45,7 +45,7 @@
     min-height: 100vh;
     width: 100%;
     padding: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     box-sizing: border-box;
 }
 
@@ -55,7 +55,7 @@
     background-size: 300% 300%;
 }
 
-.source-link-space {
+.source-link {
     margin-bottom: 60px;
     font-family: third-header-font;
     color: darkgreen;
@@ -64,7 +64,6 @@
 #source-link-1 {
     color: white;
 }
-
 
 #index {
     background: linear-gradient(#0AE3E6 8%, #0BAC9B 27%,#0C7550 70%, #07422D 95%);
@@ -108,12 +107,14 @@
     font-size: 56px;
 }
 
+/*Lions page-special sizing*/
 #main-title-1 {
     font-size: 140px;
     color: white;
     margin-top: 20px;
 }
 
+/*Giraffes page-special sizing*/
 #main-title-2 {
     font-size: 95px;
     color: white;
@@ -121,43 +122,20 @@
 
 }
 
+/*Origin page-special sizing*/
 #main-title-3 {
-    font-size: 57px;
-    color: white;
-    margin-top: 10px;
-}
-
-#main-title-4 {
     font-size: 100px;
     color: #110896;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 5px;
 }
 
-#main-title-5 {
+/*Northwestern Pond Turtle-special sizing*/
+#main-title-4 {
     font-size: 60px;
     color: white;
     margin-top: 10px;
     margin-bottom: 60px;
-}
-
-.source-resource-title {
-    font-family: second-header-font;
-}
-
-
-#origin-blue{
-    color: #110896;
-}
-
-#source-white{
-    color: white;
-}
-
-#source-white-2{
-    color: white;
-    margin-top: 7px;
-    margin-bottom: 65px;
 }
 
 .secondary-header-title{
@@ -175,12 +153,23 @@
     padding: -0.5px -0.5px;
     border-radius: 10px;
     display: inline-block;
+}
 
+.source-resource-title {
+    font-family: second-header-font;
 }
 
 .third-header-text{
     font-family:third-header-font;
     margin-bottom: 35px;
+}
+
+#origin-blue{
+    color: #110896;
+}
+
+#source-white{
+    color: white;
 }
 
 .body-text{
@@ -199,14 +188,6 @@
     border-radius: 10px;
     color: white;
     display: inline-block;
-}
-
-#body-text-list {
-    color: white;
-}
-
-#source-light{
-    color: #ffffff;
 }
 
 .nav-page-container {
@@ -236,6 +217,6 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-    color: inherit;      /* or choose a color */
-    text-decoration: none;  /* optional: remove underline */
+    color: inherit;     
+    text-decoration: none; 
 }
